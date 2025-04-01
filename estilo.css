@@ -1,0 +1,358 @@
+
+body{
+  font-family: "Arial", Helvetica, sans-serif;
+  margin: 0px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.header{
+  max-width: 1500px;
+ padding: 20px 20px; 
+  margin:  auto;
+  display: flex;
+ justify-content: space-between; 
+  align-items: center;
+  background-color: #460d52;
+}
+
+h1
+h2
+h3
+p{
+  margin: 0px;
+ 
+} 
+
+.Início {
+  padding: 50px;
+  color: #460d52;
+  align-items: center;
+  text-align: center;
+  font-family: "Raleway", serif;
+  
+}
+ .logo-tekinara{
+  width: 200px;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  
+}
+.div1{
+  display: block;
+}
+
+.container-image {
+  text-align: center;
+  display: block;
+}
+
+
+/*sessão sserviços*/
+.servicos{
+  background-color: #460d52;
+  color: #ffffff;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+}
+/*sessão sserviços*/
+
+.footer{
+  text-align: center;
+}
+
+.missao{
+  text-align: center;
+  padding-top: 0px;
+  font-family: "Arial", Helvetica, sans-serif;
+  /* font-family: "Raleway", serif; */
+}
+
+.frase1{
+  justify-content: center;
+  text-align: center;
+  font-family: "Raleway", serif;
+}
+.frase2{
+  
+  justify-content: center;
+  text-align: center;
+  font-family: "Raleway", serif;
+}
+
+#trampo{
+  justify-content: center;
+  text-align: center;
+  font-family: "Raleway", serif;
+}
+
+
+.mensagem, .mensagem2 {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center; 
+  padding-top: inherit;
+}
+.circulo{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+}
+.case{
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  font-family: "Raleway", serif;
+  border-style:ridge;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #957b9be5;
+  border-color: #ffffff;
+  padding-right: 20px;
+  
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;;
+}
+
+.card {
+  /* background-color: #000000; */
+  color: #000000;
+  border-style: groove;
+  border-color: #000000;
+  background: #000000;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transform: translateY(20%);
+  opacity: 0;
+  transition: transform 1.5s ease-out, opacity 1.9s ease-out;
+}
+
+.card.visible {
+  /* background-color: rgb(247, 19, 171);  */
+  transform: translateY(0);
+  opacity: 1;
+  
+  background-color: #460d52 ;
+}
+
+.card h3 {
+  color: #ffffff;
+  margin-top: 0;
+  
+}
+
+.card p {
+  color: #ffffff;
+}
+
+
+.container{
+  display: flex;
+}
+.side-by-side{
+  flex: 1;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.div1{
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  /* font-style: normal; */
+  text-align: center;
+  font-size: 50px;
+  opacity: 0.10;
+  color: #000000;
+}
+
+
+
+.orcamento{
+  background-color:#957b9be5;
+  color: #ffffff;
+  padding: 45px;
+  text-align: center;
+}
+.button{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color:#ffffff;
+  background-color:#460d52;
+  border-radius: 10px;
+  border-style:hidden;
+  border-color: #d1b0d8;
+  transition: backgroud-color 0.3s;
+}
+.button:hover{
+  color: #ffffff;
+  background-color: #d1b0d8;
+  text-decoration: none;
+}
+
+
+ footer {
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  color: #030303;
+  
+  
+} 
+/* icones das redes sociais com links direcionaveis*/
+.linkinstagram{
+  color: #460d52;
+}
+.linkinstagram:hover{
+  background: none;
+  color: #d1b0d8;
+}
+
+.linkwhatsapp{
+  color: #460d52;
+}
+.linkwhatsapp:hover{
+  background: none;
+  color: #d1b0d8;
+}
+
+ .linklinkedin{
+  color: #460d52;
+} 
+.linklinkedin:hover{
+background: none;
+color: #d1b0d8;
+}
+
+
+/* icones das redes sociais com links direcionaveis*/
+
+
+
+@media (max-width: 768px) {
+  .cards {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card {
+      width: 80%;
+  }
+  .logo-tekinara{
+    width: 50%; 
+    
+  }
+  .logo{
+    width: 190%; 
+    
+  }
+}
+
+
+
+@media (max-width: 2400px){
+.div1{
+  display: block;
+}
+
+.container-image {
+  text-align: center;
+  display: block;
+}
+
+.header{
+  max-width: 2400px;
+}
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1140px;
+      max-height: 570px;
+  }
+
+  .container-image {
+    text-align: center;
+    max-height: fit-content;
+}
+}
+
+/* Ajustes para telas menores que 768px */
+@media (max-width: 768px) {
+  .cards {
+      flex-direction: column;
+      align-items: center;
+  }
+  .card {
+      width: 80%;
+  }
+  .image {
+      width: 20%;
+  } 
+  .cookie-banner {
+      padding: 20px;
+  }
+  .foto-sobre{
+      width: 50%;
+  }
+  .logo-tekinara{
+    width: 30%;
+  }
+
+}
+
+.box-container{
+  display:grid;
+  text-align: center;
+  max-width: 100%;
+  padding: 10px;
+  
+}
+.titulo{
+ 
+  text-align: center;
+  opacity: 0;
+  transform: translateY(0);
+}
+.titulo2{
+  max-width: 100%;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(0);
+  text-rendering: auto;
+}
+
+
+
+
+
+
